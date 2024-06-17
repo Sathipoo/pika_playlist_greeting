@@ -1,0 +1,12 @@
+pages:
+  - song_name: "Song 1"
+    message: "This is the first message"
+    lyrics: "Lyrics of the first song..."
+    qr_code_png: "images/qr1.png"
+    background_image: "images/bg1.jpg"
+  - song_name: "Song 2"
+    message: "This is the second message"
+    lyrics: "Lyrics of the second song..."
+    qr_code_png: "images/qr2.png"
+    background_image: "images/bg2.jpg"
+  # Add more pages as needed

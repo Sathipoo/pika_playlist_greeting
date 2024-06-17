@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Song Book</title>
+</head>
+
+<body>
+    {% for page in pages %}
+    <div class="page" style="background-image: url('{{ url_for('static', filename=page.background_image) }}');">
+        <h1>{{ page.song_name }}</h1>
+        <p>{{ page.message }}</p>
+        <pre>{{ page.lyrics }}</pre>
+        <img src="{{ url_for('static', filename=page.qr_code_png) }}" alt="QR Code">
+    </div>
+    {% endfor %}
+</body>
+
+</html>
