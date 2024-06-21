@@ -127,7 +127,9 @@ viewer_pdf = Template("""<!DOCTYPE html>
         }
         /* Specific styles for each section */
         
-        .section-1 .song-name {}
+        .section-1 .song-name {
+            /* styles for song in section ${song_1}  */
+        }
         
         .section-1 .message {
             /* styles for message in section  */
@@ -142,6 +144,7 @@ viewer_pdf = Template("""<!DOCTYPE html>
         }
         
         .section-3 .song-name {
+            /* styles for song in section  */
             padding-top: 15%;
         }
         
@@ -160,7 +163,9 @@ viewer_pdf = Template("""<!DOCTYPE html>
             font-weight: 400;
         }
         
-        .section-5 .song-name {}
+        .section-5 .song-name {
+            /* styles for song in section  */
+        }
         
         .section-5 .message {
             /* styles for message in section  */
@@ -173,7 +178,9 @@ viewer_pdf = Template("""<!DOCTYPE html>
             padding-left: 15%;
         }
         
-        .section-7 .song-name {}
+        .section-7 .song-name {
+            /* styles for song in section  */
+        }
         
         .section-7 .message {
             /* styles for message in section  */
@@ -189,7 +196,9 @@ viewer_pdf = Template("""<!DOCTYPE html>
             font-weight: 400;
         }
         
-        .section-9 .song-name {}
+        .section-9 .song-name {
+            /* styles for song in section  */
+        }
         
         .section-9 .message {
             /* styles for message in section  */
