@@ -11,7 +11,12 @@ def load_config():
 @app.route('/')
 def index():
     config = load_config()
+    print(config['pages'])
     return render_template('index.html', pages=config['pages'])
+
+@app.route("/pdff")
+def pdff():
+    return render_template('viewer_pdf_20240620_011228.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

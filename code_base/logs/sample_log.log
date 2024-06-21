@@ -13,3 +13,10 @@ The Spotify URL for 'Adiga' from the album 'Hi nanna' is: https://open.spotify.c
 
 Playlist URL: https://open.spotify.com/playlist/6p21HHSjkqieQ9krYkv4Sj
 
+
+
+SyncCursorPage[Message]
+(data=[Message(id='msg_UXG7CNj3yjwNGkoH8KjE0b94', assistant_id='asst_r8RuDgd6SMT0YB3ZnMW3zTOy', attachments=[], completed_at=None, content=[TextContentBlock(text=Text(annotations=[], value='"Two young adults sitting on a lush green hill under a clear blue sky, intently learning to play a guitar together. The scene is filled with a sense of nostalgia, early morning dew on grass, and colorful wildflowers surrounding them, depicting a heartwarming and serene moment of connection and learning."'), type='text')], 
+created_at=1718650605, incomplete_at=None, incomplete_details=None, metadata={}, object='thread.message', role='assistant', run_id='run_97zDkmjXxKN5TCegWP2F4EHa', status=None, thread_id='thread_khVTVtzfnBZlirstCc8WVn6X'), Message(id='msg_uxqSPBRdROdOcPNkHbemwtFC', assistant_id=None, attachments=[], completed_at=None, content=[TextContentBlock(text=Text(annotations=[], value="{'song': 'Anisuthide', 'movie': 'Mungaru male', 'message': 'The beginning notes of this songs reminds me so much how we learnt it together'}"), type='text')], created_at=1718650603, incomplete_at=None, incomplete_details=None, metadata={}, object='thread.message', role='user', run_id=None, status=None, thread_id='thread_khVTVtzfnBZlirstCc8WVn6X')], object='list', first_id='msg_UXG7CNj3yjwNGkoH8KjE0b94', last_id='msg_uxqSPBRdROdOcPNkHbemwtFC', has_more=False)
+[ ]
+1
