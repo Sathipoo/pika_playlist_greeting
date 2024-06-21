@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "compact-haiku-414007",
+  "private_key_id": "c7b9f35b193908361de9b694ec41031c2fbb7020",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCx6ZNZFB1EZ+1B\ng/o4N/xwdhKC4T3VHIFHO+zIbnIq5wnAisSA8VWYADIYPveFF2pJuf332QQA7kWi\nszaq8sHw2A2Y6floQDSqg36UXS2e9GvktNPujEmQIdg2LPiWunOuF6uediRJXlrS\n1b0FvqEZEuebnF4YtFvtpu/rx2ze0wn+EylXPGPkx5Yd7MpdCC4z9T5p9eHtMJ9O\nmyTUNBQZs935q6bBZqAyOTLOWJJi9E7Y/QPNbrQ5eLiE1CKvsML9a1iSEvTgH+i7\n2MzmUPxcYv+tKl4I6a1h9ByFDoLmiMLy21vaHJUVSIqw+wK7VdCFxejYDHG+c9va\nll5YJfhVAgMBAAECggEAD4MRwlc8uaCk5CzC9DdJbtX7BWdPJVW/0QhHO/u8csPD\n988BlOTpDucBdyS4uLJGDAyUuXeCxlpmch0727BtbkR5yjnbcZZoVFYOHMoTaepE\nvmM+N5/XfO++f40kCLxUAFT3Af3dNxQF4wXlkVEoKamaZ3JwSXYirithr5/EY2V2\nQYuMU173cncq5OzlteTtaORzdFGDM4UJQydV2aHnkfWSPuRLJ+UpRvHstOJiM/Ku\noZY4B68WcCfsD9V6p/uhlM4JdB9P0k32yq+eCoZBRtm0iLkhSRwnbsQhu46ezaOq\n4P+uxPAVZq1KPHsnlwHm7rJ09QhtAAKcA3g7ta+JNwKBgQDw0ovcZ71uk+hiRbK6\nVT0rVKk2qNk2dxdro0iD/tWAZjw786lrANFfW0HgUmsBCoKtA75w9FUDyIFCf7YE\nKZHYyqw+CIupOluyG3b0reDF7UuVHzJ4ilIACNNnhgUUZh0jb1QVaShfjXWpersh\n2S8hfo9VOKjbgUPiX0cVzBMhHwKBgQC9IAhDSNEjAw9f9gCSYE0S+2KBTVQeoYgi\nscURpR2mi9DwnafJPYGy3RX9sB9EPshC3T+KY7A5wXsq49HClF9nVgbeVbi9q8U/\nm2CiPeZZe10HiHowCtZSNALnt2o0XnwPWB4WVkSQMUtsBF9aT3wlKkjEoaJjWPEE\nuk/YJf70CwKBgQDnNL0idlbgexB4iQH28y8vErEC0Uj5iYzqwnE0iMzh4UWjKWRW\nXwqkyjCM9ZPWBAlBon6MY4fbgfzXo1VU2bQ0tyB2zi2H44d1j/i9INLUM+aE3NbP\n87yWW+LbWUg3NXJ0OsY3aCZi1qVIeZSAAsvFFIT4BNXZKFnMVD0jKDKVcQKBgFT4\nwF2iqLwnUtAVkfoyJE7j/UUE/kdo4eZcoqMj4WeDqBODcfA7nztCk+/QIqwh3Q4V\no8fEtFeus2z4wLTAvwCJqTpZn1AwjcXfRJKAZy9K+ug4jFVreRGj5q4/PQtcbDbk\nq1fz2IhEbZORf1nvHmMAVYNq76/dNSSfpOIDaEIzAoGBAOngr8fdzg+XLv30Oi5i\n/sUA5pKA+P9yY39aI9kbnHKzFva+nKS8izaro81DP5pnHUTAgEVrhB/HxYZdCMci\nnDS/XrRwWrm8yUfnoLxu+f9PmMIscm7WJKwY6iBwP7P1CAxVmnf6ibkwzbXzbaLG\noUibLGWyjDKVboh8RRDM0un/\n-----END PRIVATE KEY-----\n",
+  "client_email": "pika-play-list-greeting@compact-haiku-414007.iam.gserviceaccount.com",
+  "client_id": "105319248577942223358",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pika-play-list-greeting%40compact-haiku-414007.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

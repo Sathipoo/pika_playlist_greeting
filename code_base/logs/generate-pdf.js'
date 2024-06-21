@@ -1,0 +1,20 @@
+
+const puppeteer = require('puppeteer');
+
+// Get the URL and filename from command-line arguments
+const url = process.argv[2];
+const filename = process.argv[3];
+
+if (!url || !filename) {
+  console.error('Please provide a URL as the first argument and a filename as the second argument');
+  process.exit(1);
+}
+
+(async() => {
+    const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+    const page = await browser.newPage();
+    await page.goto(url, { waitUntil: 'networkidle2' });
+    await page.pdf({ path: filename, format: 'A4', printBackground: true });
+
+    await browser.close();
+})();
