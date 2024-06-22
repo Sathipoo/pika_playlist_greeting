@@ -8,7 +8,7 @@ def mirror_text(text):
     'A': '∀', 'B': 'B', 'C': 'C', 'D': 'D', 'E': 'E', 'F': '|=', 'G': '⅁', 'H': 'H', 'I': 'I', 'J': 'ſ', 'K': 'K',
     'L': '𝛤', 'M': 'W', 'N': 'И', 'O': 'O', 'P': 'Ԁ', 'Q': 'Ό', 'R': 'ᴚ', 'S': '2', 'T': '⊥', 'U': '∩', 'V': 'Λ',
     'W': 'M', 'X': 'X', 'Y': '⅄', 'Z': '≶',
-    '0': '0', '1': 'Ɩ', '2': 'ᄅ', '3': 'Ɛ', '4': 'ㄣ', '5': 'ϛ', '6': '9', '7': 'ㄥ', '8': '8', '9': '6',
+    '0': '0', '1': 'Ɩ', '2': '5', '3': '3', '4': 'ㄣ', '5': 'ᄅ', '6': 'e', '7': 'ㄥ', '8': '8', '9': '𝞉',
     ',': "'", '.': '˙', '?': '¿', '!': '¡', '"': '„', "'": ',', '(': ')', ')': '(', '[': ']', ']': '[', '{': '}', '}': '{',
     '<': '>', '>': '<', '&': '⅋', '_': '‾'
 }
@@ -19,7 +19,7 @@ def mirror_text(text):
     'A': '∀', 'B': '𐐒', 'C': 'Ↄ', 'D': '◖', 'E': 'Ǝ', 'F': 'Ⅎ', 'G': '⅁', 'H': 'H', 'I': 'I', 'J': 'ſ', 'K': '⋊',
     'L': '⅃', 'M': 'W', 'N': 'И', 'O': 'O', 'P': 'Ԁ', 'Q': 'Ό', 'R': 'ᴚ', 'S': 'S', 'T': '⊥', 'U': '∩', 'V': 'Λ',
     'W': 'M', 'X': 'X', 'Y': '⅄', 'Z': 'Z',
-    '0': '0', '1': 'Ɩ', '2': 'ᄅ', '3': 'Ɛ', '4': 'ㄣ', '5': 'ϛ', '6': '9', '7': 'ㄥ', '8': '8', '9': '6',
+    '0': '0', '1': 'Ɩ', '2': '5', '3': '3', '4': 'ㄣ', '5': 'ᄅ', '6': '9', '7': 'ㄥ', '8': '8', '9': 'e',
     ',': "'", '.': '˙', '?': '¿', '!': '¡', '"': '„', "'": ',', '(': ')', ')': '(', '[': ']', ']': '[', '{': '}', '}': '{',
     '<': '>', '>': '<', '&': '⅋', '_': '‾'
 }
@@ -39,6 +39,7 @@ def mirror_text(text):
     # Reverse the text and map each character to its mirrored counterpart
     mirrored_upside_down_text = ''.join(upside_down_mirror_chars.get(char, char) for char in text)
     return mirrored_upside_down_text
+
 mess="""
 This I just can't tell 
 how much I'm into it. 
@@ -51,15 +52,23 @@ relation ship with this
 song about you. 
 """
 
+mess="""
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+0123456789
+
+"""
+
 # def mirror_text(text):
 #     # Reverse the text
 #     reversed_text = text[::-1]
 #     return reversed_text
 
 # Example usage
-outt=""
-for line_of_text in mess.split("\n")[::-1]:
-    mirrored_text = mirror_text(line_of_text)
-    outt+=mirrored_text+"\n"
+def mirror_encode(mess):
+    outt=""
+    for line_of_text in mess.split("\n")[::-1]:
+        mirrored_text = mirror_text(line_of_text)
+        outt+=mirrored_text+"\n"
 
-print(outt)
+    return(outt)

@@ -2,7 +2,7 @@
 from google.cloud import storage
 import os
 
-credentials_file_path="/Users/sathishkumar/Documents/Pickachooz/gitworkspace/pika-playlist-greeting/code_base/play_list_google.json"
+credentials_file_path="/Users/sathishkumar/Downloads/compact-haiku-414007-7c19f02fa07b.json"
 def upload_file_to_gcs(bucket_name, source_file_path, destination_subfolder="", credentials_file_path=credentials_file_path):
     # Create a GCS client object using service account key file authentication
     try:
