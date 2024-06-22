@@ -65,10 +65,32 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 #     return reversed_text
 
 # Example usage
+
+def format_message(message, max_length=28):
+    words = message.split()
+    lines = []
+    current_line = ""
+    for word in words:
+        if len(current_line) + len(word) + 1 <= max_length:
+            if current_line:
+                current_line += " " + word
+            else:
+                current_line = word
+        else:
+            lines.append(current_line)
+            current_line = word
+    if current_line:
+        lines.append(current_line)
+    return "\n".join(lines)
+
 def mirror_encode(mess):
+    long_mess = format_message(mess)
     outt=""
-    for line_of_text in mess.split("\n")[::-1]:
+    for line_of_text in long_mess.split("\n")[::-1]:
         mirrored_text = mirror_text(line_of_text)
         outt+=mirrored_text+"\n"
 
     return(outt)
+
+
+
