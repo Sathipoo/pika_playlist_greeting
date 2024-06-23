@@ -30,9 +30,9 @@ with open(temp_path, 'w') as file:
     file.write(js_content)
 
 # Step 4: Define the URL and Generate a Timestamped Filename
-url = 'https://storage.googleapis.com/pika_image_uploads/play_list_htmls/viewer_pdf_20240622_061707.html'
+url = 'https://storage.googleapis.com/pika_image_uploads/manual_uploads/sp3.html'
 timestamp = time.strftime("%Y%m%d_%H%M%S")
-filename = f'/Users/sathishkumar/Documents/Pickachooz/gitworkspace/pika-playlist-greeting/code_base/logs/webpage_{timestamp}.pdf'
+filename = f'/Users/sathishkumar/Downloads/uploads/webpage_{timestamp}.pdf'
 
 # Step 5: Run the JavaScript File with the URL and Filename Parameters
 print(f"Running JavaScript file with URL: {url} and filename: {filename}...")
